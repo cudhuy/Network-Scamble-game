@@ -36,11 +36,8 @@ private slots:
     void on_actionLog_In_triggered();
     void on_listWidget_itemDoubleClicked(QListWidgetItem *item);
     void on_actionExit_triggered();
-
     void on_actionRules_of_the_Game_triggered();
-
     void on_actionControls_triggered();
-
     void on_actionAuthor_triggered();
 
 private:

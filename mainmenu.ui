@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>557</width>
-    <height>650</height>
+    <height>752</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -21,7 +21,7 @@
     <normaloff>C:/Program Files (x86)/CodeBlocks/share/CodeBlocks/templates/wizard/plugins/logo.png</normaloff>C:/Program Files (x86)/CodeBlocks/share/CodeBlocks/templates/wizard/plugins/logo.png</iconset>
   </property>
   <property name="styleSheet">
-   <string notr="true">geometry: 380, 10;</string>
+   <string notr="true">font: 12pt &quot;Consolas&quot;;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="sessionLabel">
@@ -36,9 +36,9 @@
     <property name="font">
      <font>
       <family>Consolas</family>
-      <pointsize>20</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -87,7 +87,7 @@
      </sizepolicy>
     </property>
     <property name="text">
-     <string>Play as Guest</string>
+     <string>Guest</string>
     </property>
     <property name="icon">
      <iconset>
@@ -153,6 +153,8 @@
      <font>
       <family>Consolas</family>
       <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -181,6 +183,8 @@
      <font>
       <family>Consolas</family>
       <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -209,6 +213,8 @@
      <font>
       <family>Consolas</family>
       <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -224,6 +230,32 @@
      <cstring>logInButton</cstring>
     </property>
    </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>620</y>
+      <width>391</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Wanna check ranking? Click here</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>610</y>
+      <width>101</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Rank</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -231,7 +263,7 @@
      <x>0</x>
      <y>0</y>
      <width>557</width>
-     <height>21</height>
+     <height>29</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
@@ -336,6 +368,9 @@
    </property>
    <property name="shortcut">
     <string>Esc</string>
+   </property>
+   <property name="huy" stdset="0">
+    <string/>
    </property>
   </action>
  </widget>
